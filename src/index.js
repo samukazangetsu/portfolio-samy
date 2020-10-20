@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Home from './pages/home/home';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className="row justify-content-center">
+      <App />
+      <Home></Home>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

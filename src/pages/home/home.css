@@ -1,0 +1,177 @@
+/*========================= Home =========================*/
+
+/* Container */
+.header{
+	font-family:'Open Sans', sans-serif;
+}
+
+/* Estilos de subtítulos para sessões */
+.sessao{
+	font-family: 'Poiret One', cursive;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40px;
+	box-shadow: 0px 2px 5px #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.sessao::after{
+	content: "";
+}
+
+/* Imagem inicial */
+.bloco_img{
+	width: 100%;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	background-color:#5f3c24;
+	background-color: #6C20B2;
+}
+
+.bloco_img .image_samy{
+	margin: 10px 0;
+	width: 200px;
+	background-image: url("../../images/image_samy.jpg");
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+	border: 3px solid #414040;
+}
+
+.text_sobre{
+	font-size: 20px;
+	text-align: center;
+	background-color: #FAFAF5 ;
+	box-shadow: 0px 2px 5px #000 !important;
+	padding: 15px;
+}
+.text_sobre a{
+	width: 50px;
+	color: #F5740C;
+}
+
+/* Destaques */
+.destaques{
+	padding: 0px 0px 60px 0 !important;
+	background-color: #FBA512;
+	/* background-image: linear-gradient(160deg, #FFDEA6, #FAD28E); */
+	box-shadow: 0px 2px 5px #000 !important;
+	margin: 60px 0px 30px 0;
+}
+
+.titulo_dest{
+	background-color: #FAFAF5;
+	box-shadow: 0px 2px 5px #000 !important;
+	top: -40px;
+}
+
+.destaques .titulo_dest{
+	color: #000;
+	font-family: 'Dancing Script', cursive;
+	font-weight: lighter;
+	/* font-family: 'Poiret One', cursive; */
+	text-align: center;
+}
+
+.destaques .titulo_dest h2{
+	font-size: 50px;
+ 	font-weight: lighter;
+
+}
+
+.sessao div{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sessao div h2{
+	text-align: center;
+}
+
+
+.destaque_img{
+	height: 300px;
+	background-color: transparent;
+	min-height: 300px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.destaque_img1{
+	background-image: url("../../images/Capturar3.PNG");
+	width: auto;
+	text-align: center;
+	
+}
+
+.destaque_img2{
+	background-image: url("../../images/DESIGN DE EMBALAGEM/Mockup.jpg");
+	width: 100%;
+	text-align: center;
+}
+
+.destaque_img3{
+	background-image: url("../../images/identidade.png");
+	width: 100%;
+	text-align: center;
+}
+
+.destaque_img4{
+	background-image: url("../../images/hamirDraw.png");
+	width: 100%;
+	text-align: center;
+}
+
+.destaque_img:hover{ 
+	transition: all .3s ease;
+}
+
+.destaque_img:hover .desc{	
+	transition: all .3s ease;
+	display: block;
+}
+
+.desc{
+	justify-content: center;
+	background-color:rgb(26, 25, 25);
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	display: none;
+	padding: 10px 5px;
+	transition: all .3s ease;
+}
+
+.desc div{
+	color: #fff;
+}
+
+
+.desc div h4{
+	font-weight: lighter;
+}
+
+.desc .nome_dest h3{
+	font-family: 'Dancing Script', cursive;
+}
+
+.desc div p{
+	font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.desc .ver_mais a{
+	font-size: 12px;
+	color: #AEB8EB;
+}

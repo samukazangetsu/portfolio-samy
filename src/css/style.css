@@ -1,0 +1,490 @@
+/* body */
+body{
+	background-image: url("../images/fundosite2.png");
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0 !important;
+}
+
+/* Container */
+.header{
+	font-family:'Open Sans', sans-serif;
+}
+
+/* Estilos de subtítulos para sessões */
+.sessao{
+	font-family: 'Poiret One', cursive;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40px;
+	box-shadow: 0px 2px 5px #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.sessao::after{
+	content: "";
+}
+
+/*========================= Header =========================*/
+
+/* Navegação */
+.menu{
+	position: fixed !important;
+	z-index: 3;
+	/* top: 0; */
+	height: 100%;
+	box-shadow: 0px 2px 5px #000 !important;
+	background-color: #FAFAF5 !important;
+	left: 0;
+	line-height: 2.0;
+	width: auto !important;
+	padding: 0;
+	transition: all .3s ease;
+}
+
+.nav{
+	height: 100%;
+	align-items: center;
+}
+
+.menu-fundo{
+	width: 50.75px;
+	margin-right: 60px;
+}
+.menu li{
+	padding: 0 0px;
+	margin: 0;
+	transition: all .3s ease;
+	height: 9.5%;
+	width: 100%;
+}
+
+.active{
+	background-color: #F89F36;
+}
+
+.menu li:hover{
+	background-color: #F89F36;
+	transition: all .3s ease;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #000;
+	transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.menu a p{
+	display: none;
+	transition: all .3s ease;
+	padding: 0;
+}
+
+.nav-link{
+	margin: 0;
+	padding: 0 !important;
+	text-align: center;
+}
+
+.nav-link i{
+	font-size: 16px;
+	margin: 0 15px;
+	color: #4B048C;
+	padding-top: 15px;
+}
+
+.nav-link p{
+	font-size: 11px;
+	margin-bottom: 0 !important;
+}
+.menu:hover .nav-link p, .menu:hover .menu{
+	line-height: 1.0;
+	display: block;
+	transition: all .3s ease;
+}
+.nome, .menu_principal{
+	background-color: transparent;
+}
+
+/* Header */
+.nome{
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-image: url("../images/logo1-01.png");
+	font-family: 'Poiret One', cursive;
+	height: 220px;
+}
+
+.nome h1{
+	text-align: center;
+	width: 100%;
+}
+
+.nome h2{
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	font-size: 22px;
+	width: 100%;
+	color: #F7BE5C;
+	margin-bottom: 15px;
+}
+
+
+
+/*========================= Home =========================*/
+
+/* Imagem inicial */
+.bloco_img{
+	width: 100%;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	background-color:#5f3c24;
+	background-color: #6C20B2;
+}
+
+.bloco_img .image_samy{
+	margin: 10px 0;
+	width: 200px;
+	background-image: url("../images/image_samy.jpg");
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+	border: 3px solid #414040;
+}
+
+.text_sobre{
+	font-size: 20px;
+	text-align: center;
+	background-color: #FAFAF5 ;
+	box-shadow: 0px 2px 5px #000 !important;
+	padding: 15px;
+}
+.text_sobre a{
+	width: 50px;
+	color: #F5740C;
+}
+
+/* Destaques */
+.destaques{
+	padding: 0px 0px 60px 0 !important;
+	background-color: #FBA512;
+	/* background-image: linear-gradient(160deg, #FFDEA6, #FAD28E); */
+	box-shadow: 0px 2px 5px #000 !important;
+	margin: 60px 0px 30px 0;
+}
+
+.titulo_dest{
+	background-color: #FAFAF5;
+	box-shadow: 0px 2px 5px #000 !important;
+	top: -40px;
+}
+
+.destaques .titulo_dest{
+	color: #000;
+	font-family: 'Dancing Script', cursive;
+	font-weight: lighter;
+	/* font-family: 'Poiret One', cursive; */
+	text-align: center;
+}
+
+.destaques .titulo_dest h2{
+	font-size: 50px;
+ 	font-weight: lighter;
+
+}
+
+.sessao div{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sessao div h2{
+	text-align: center;
+}
+
+
+.destaque_img{
+	height: 300px;
+	background-color: transparent;
+	min-height: 300px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.destaque_img1{
+	background-image: url("../images/Capturar3.PNG");
+	width: auto;
+	text-align: center;
+	
+}
+
+.destaque_img2{
+	background-image: url("../images/DESIGN DE EMBALAGEM/mockup.jpg");
+	width: 100%;
+	text-align: center;
+}
+
+.destaque_img3{
+	background-image: url("../images/identidade.png");
+	width: 100%;
+	text-align: center;
+}
+
+.destaque_img4{
+	background-image: url("../images/hamirDraw.png");
+	width: 100%;
+	text-align: center;
+}
+
+.destaque_img:hover{ 
+	transition: all .3s ease;
+}
+
+.destaque_img:hover .desc{	
+	transition: all .3s ease;
+	display: block;
+}
+
+.desc{
+	justify-content: center;
+	background-color:rgb(26, 25, 25);
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	display: none;
+	padding: 10px 5px;
+	transition: all .3s ease;
+}
+
+.desc div{
+	color: #fff;
+}
+
+
+.desc div h4{
+	font-weight: lighter;
+}
+
+.desc .nome_dest h3{
+	font-family: 'Dancing Script', cursive;
+}
+
+.desc div p{
+	font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.desc .ver_mais a{
+	font-size: 12px;
+	color: #AEB8EB;
+}
+
+
+/*========================= Design Editorial =========================*/
+.projeto{
+	margin-top: 50px;
+	background-color: #211B1B;
+	color: #F8F6F6;
+	padding: 0;
+}
+
+.projeto .projeto_nome{
+	text-align: center;
+}
+
+.projeto_imagens{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.projeto_img{
+	border: 1px solid rgb(10, 10, 10);
+	min-height: 400px;
+}
+
+#img1{
+	background-image: url("../images/DESIGN EDITORIAL/capa.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#img2{
+	background-image: url("../images/DESIGN EDITORIAL/SuperEgo-2.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#img3{
+	background-image: url("../images/DESIGN EDITORIAL/Capturar3.PNG");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#img4{
+	background-image: url("../images/DESIGN EDITORIAL/Capturar.PNG");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#img5{
+	background-image: url("../images/DESIGN EDITORIAL/PADRINHOS2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+
+.projeto_img p{
+	border-bottom: 1px solid #fff;
+}
+
+.projeto{
+	text-align: left;
+}
+
+.projeto .open_spec{
+	text-align: left;
+	padding-left: 40px;
+	display: inline;
+}
+
+.projeto .open_spec:hover{
+	cursor: pointer;
+}
+
+/* Especificações */
+/* .spec{
+	position: absolute;
+	z-index: 0;
+	background-color: #fff;
+	width: 100%;
+	min-height: 30%;
+	height: auto;
+	bottom: 0;
+	left: -100%;
+	color: #000;
+	transition: all 2s ease;
+	opacity: 0;
+	text-align: center;
+} */
+.spec h3{
+	display: block;
+	margin: 20px 0;
+}
+
+.spec p{
+	margin-bottom: 30px;
+}
+
+.spec i{
+	position: absolute;
+	top: 3%;
+	right: 3%;
+}
+
+.fas:hover{
+	cursor: pointer;
+}
+
+
+/*========================= Contato =========================*/
+.form{
+	background-color: #F8D393;
+	width: 100%;
+	float: left;
+	padding-bottom: 60px;
+	align-items: center;
+}
+
+.left{
+	width: 60%;
+}
+
+.right{
+	width: 40%;
+}
+
+.left, .right{
+	float: left;
+}
+
+.right{
+	height: 100%;
+	
+}
+
+.form form{
+	width: 55%;
+	justify-content: center;
+	margin-left: 189px;
+	padding-top: 20px;
+}
+
+.textarea textarea{
+	width: 95%;
+	border: 0 solid #000;
+	padding-left: 5px;
+	box-shadow: 2px 2px 3px #535353;
+	border-radius: 3px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bolder;
+}
+
+.right input{
+	width: 100%;
+	height: 30px;
+	margin: 7px 0;
+	border: 0 solid #000;
+	padding-left: 10px;
+	box-shadow: 2px 2px 3px #535353;
+	border-radius: 3px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bolder;
+}
+
+input[type="submit"]{
+	padding: 0;
+	background-color: #000;
+	color: white;
+}
+/*========================= About =========================*/
+#about p{
+	padding-bottom: 50px;
+}
+.curriculo{
+	width: 80%;
+	margin-left: 189px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+
+.curriculo p i{
+	font-size: 20px;
+}
+.curriculo p i:hover{
+	cursor: default;
+}
+	
+	
+	
+  

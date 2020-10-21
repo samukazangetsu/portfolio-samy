@@ -1,0 +1,95 @@
+/*========================= Design Editorial =========================*/
+.projeto{
+	margin-top: 50px;
+	background-color: #211B1B;
+	color: #F8F6F6;
+	padding: 0;
+}
+
+.projeto .projeto_nome{
+	text-align: center;
+}
+
+.projeto_imagens{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.projeto_img{
+	border: 1px solid rgb(10, 10, 10);
+	min-height: 400px;
+}
+
+#img1{
+	background-image: url("../../images/DESIGN EDITORIAL/capa.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#img2{
+	background-image: url("../../images/DESIGN EDITORIAL/SuperEgo-2.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#img3{
+	background-image: url("../../images/DESIGN EDITORIAL/Capturar3.PNG");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#img4{
+	background-image: url("../../images/DESIGN EDITORIAL/Capturar.PNG");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#img5{
+	background-image: url("../../images/DESIGN EDITORIAL/PADRINHOS2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+
+.projeto_img p{
+	border-bottom: 1px solid #fff;
+}
+
+.projeto{
+	text-align: left;
+}
+
+.projeto .open_spec{
+	text-align: left;
+	padding-left: 40px;
+	display: inline;
+}
+
+.projeto .open_spec:hover{
+	cursor: pointer;
+}
+
+.spec h3{
+	display: block;
+	margin: 20px 0;
+}
+
+.spec p{
+	margin-bottom: 30px;
+}
+
+.spec i{
+	position: absolute;
+	top: 3%;
+	right: 3%;
+}
+
+.fas:hover{
+	cursor: pointer;
+}

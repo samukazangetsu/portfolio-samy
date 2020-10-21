@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
+import '../src/css/style.css'
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookSquare, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { faHome, faBook, faBoxOpen, faPenNib, faPaintBrush, faEnvelope, faIdCard,  } from '@fortawesome/free-solid-svg-icons'
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 
 function App() {
   const active = 'home'
   return (
-    
-    <Router>
+    <div>
       <div className="menu col-2 p-0 rounded">
         <ul className="nav flex-column nav-fill">
           {/* Home */}
@@ -18,7 +18,7 @@ function App() {
           </li>
           {/* Design Editorial */}
           <li id="design-edit" className={active === 'design-edit' ? 'active' : ""}>
-            <a className="nav-link" href="/design-editorial"><FontAwesomeIcon icon={faBook}/><p>Design Editorial</p></a>
+            <Link to="/design_editorial" className="nav-link"><FontAwesomeIcon icon={faBook}/><p>Design Editorial</p></Link>
           </li>
           {/*  Design de Embalagens */}
           <li id="design-emb" className={active === 'design-emb' ? 'active' : ""}>
@@ -46,27 +46,18 @@ function App() {
           </li>
           {/* // Instagram */}
           <li id="insta">
-            <a className="nav-link" href="https://www.instagram.com/samycoutinho/"><FontAwesomeIcon icon={faInstagram}/><p>Instagram</p></a>
+            <a className="nav-link" href="https://www.instagram.com/samyzera_/"><FontAwesomeIcon icon={faInstagram}/><p>Instagram</p></a>
           </li>
           <li id="whats">
             <a className="nav-link" href="https://api.whatsapp.com/send?phone=5511945457051&text=Ol%C3%A1!%20Gostaria%20de%20ver%20mais%20sobre%20o%20seu%20trabalho!">
             <FontAwesomeIcon icon={faWhatsapp}/><p>whatsapp</p></a>
           </li>
         </ul>
-        {/* <Switch>
-          <Route path="/home">
-            <Home />
-          </Route>
-        </Switch> */}
       </div>
-      <header className="nome col-10 text-black"></header>
-    </Router>
+    </div>
+      
     
   );
 }
-
-// function Home() {
-//   return <h2>Home</h2>
-// }
 
 export default App;
